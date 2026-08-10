@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/ibm-governed-tool-catalog",
+  "source_sha": "9a4b40852d93bf78608d37d5ebb904c29fd0f594a8834de404b065a1e168f323",
+  "proof_id": "elite-ibm-governed-tool-catalog-1786356664",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/ibm-governed-tool-catalog:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/ibm-governed-tool-catalog/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:11Z",
+  "artifact_hashes": {
+    "operability_receipt": "11b7db0b474ddd31022b1a5f850751af3f1c207fa955af827c4ca1b0b7fe3d69"
+  }
+}

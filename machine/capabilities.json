@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/ibm-governed-tool-catalog",
+  "capabilities": [
+    {
+      "id": "governed-tool-catalog",
+      "name": "Governed Tool Catalog",
+      "status": "SCAFFOLD",
+      "module": "src/governed_tool_catalog.py"
+    }
+  ]
+}

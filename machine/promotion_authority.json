@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/ibm-governed-tool-catalog",
+  "source_sha": "9a4b40852d93bf78608d37d5ebb904c29fd0f594a8834de404b065a1e168f323",
+  "proof_receipt_digest": "cbb6089beec1559c904f63b3c95035077b38ab010ba90847ca19fde263a7ccbf",
+  "not_after": 1788948664.367094,
+  "mac": "6fa1d0e2eadfd087c9eded5257a7fff8478b9e3c7f886ecc6941425a7f20fd78",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}
