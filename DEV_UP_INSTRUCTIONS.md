@@ -34,7 +34,7 @@ Expose a compact, policy-filtered tool catalog with authority scopes and refusal
 4. **No field-echo tests** — tests must change inputs and observe different outputs / refuse paths.
 5. **Deterministic** — pure functions preferred; time/randomness injected.
 6. **Receipts** — success and refuse paths return structured dicts with digests where useful.
-7. **PROMOTED XOR gap** — do not mark PROMOTED while `machine/gap-receipt.json` exists.
+7. **Gap receipt enriches** — keep `machine/gap-receipt.json` as clarity for the next verified gain; do not treat Helix PROMOTED as a ladder-stopper. See `OPERATOR_CONTRACT.md`.
 8. Keep public surface free of secrets, private repos, and personal contact PII.
 
 ## Implementation checklist
