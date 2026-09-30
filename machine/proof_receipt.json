@@ -4,12 +4,12 @@
   "source_sha": "9a4b40852d93bf78608d37d5ebb904c29fd0f594a8834de404b065a1e168f323",
   "proof_id": "elite-ibm-governed-tool-catalog-1786356664",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/ibm-governed-tool-catalog:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/ibm-governed-tool-catalog/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/ibm-governed-tool-catalog:${HOME}/GlacierEQ_Swarm/job-app/repos/ibm-governed-tool-catalog/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"
